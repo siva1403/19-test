@@ -8,7 +8,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "message": "Python API is running",
-        "message": "Edited by Vijay",
+        "message": "Edited by bharath",
         "timestamp": datetime.now().strftime("%H:%M:%S %d %b %Y")
     })
 
