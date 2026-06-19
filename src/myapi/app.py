@@ -11,8 +11,6 @@ def home():
         "message": "Edited by bharath",
         "timestamp": datetime.now().strftime("%H:%M:%S %d %b %Y")
     })
-
-
 @app.route("/health")
 def health():
     return jsonify({
