@@ -8,12 +8,9 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "message": "Python API is running",
-        "message": "Edited by Vijay",
-        "timestamp": datetime.now().strftime("%H:%M:%S %d %b %Y"),
-        "message": "This is Vijay's API"
+        "message": "Edited by bharath",
+        "timestamp": datetime.now().strftime("%H:%M:%S %d %b %Y")
     })
-
-
 @app.route("/health")
 def health():
     return jsonify({
