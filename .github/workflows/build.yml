@@ -19,6 +19,9 @@ jobs:
       - name: Install Build Tool
         run: pip install build
 
+      - name: Install Dependencies
+        run: pip install flask
+
       - name: Build Wheel
         run: python -m build
 
