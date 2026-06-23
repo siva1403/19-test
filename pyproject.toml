@@ -4,7 +4,7 @@
 
 # [project]
 # name = "myapp"
-# version = "1.0.0"
+# version = "1.0.1"
 # description = "Sample Python Wheel Package"
 # readme = "README.md"
 # requires-python = ">=3.8"
@@ -24,7 +24,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "myapi"
-version = "1.0.0"
+version = "1.0.1"
 description = "Sample Flask API"
 dependencies = [
 "flask"
