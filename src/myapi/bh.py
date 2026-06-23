@@ -16,7 +16,8 @@ app = Flask(__name__)
 
 employees = [
     {"id": 1, "name": "Bharath", "role": "Developer"},
-    {"id": 2, "name": "Ravi", "role": "Tester"}
+    {"id": 2, "name": "Ravi", "role": "Tester"},
+    {"id": 3, "name": "siva", "role": "Tester"}
 ]
 
 # GET all employees
